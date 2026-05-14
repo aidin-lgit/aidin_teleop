@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Front Matter :: Hugo Relearn Theme</title>
+    <link>https://aidin-lgit.github.io/aidin_teleop/frontmatter/index.html</link>
+    <description></description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="https://aidin-lgit.github.io/aidin_teleop/frontmatter/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Front Matter :: Alwaysopen</title>
+      <link>https://aidin-lgit.github.io/aidin_teleop/frontmatter/alwaysopen/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aidin-lgit.github.io/aidin_teleop/frontmatter/alwaysopen/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Front Matter :: Children</title>
+      <link>https://aidin-lgit.github.io/aidin_teleop/frontmatter/children/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aidin-lgit.github.io/aidin_teleop/frontmatter/children/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Front Matter :: CollapsibleMenu</title>
+      <link>https://aidin-lgit.github.io/aidin_teleop/frontmatter/collapsiblemenu/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aidin-lgit.github.io/aidin_teleop/frontmatter/collapsiblemenu/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Front Matter :: CustomMathJaxURL</title>
+      <link>https://aidin-lgit.github.io/aidin_teleop/frontmatter/custommathjaxurl/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aidin-lgit.github.io/aidin_teleop/frontmatter/custommathjaxurl/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Front Matter :: CustomMermaidURL</title>
+      <link>https://aidin-lgit.github.io/aidin_teleop/frontmatter/custommermaidurl/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aidin-lgit.github.io/aidin_teleop/frontmatter/custommermaidurl/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Front Matter :: CustomOpenapiURL</title>
+      <link>https://aidin-lgit.github.io/aidin_teleop/frontmatter/customopenapiurl/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aidin-lgit.github.io/aidin_teleop/frontmatter/customopenapiurl/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Front Matter :: Description</title>
+      <link>https://aidin-lgit.github.io/aidin_teleop/frontmatter/description/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aidin-lgit.github.io/aidin_teleop/frontmatter/description/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Front Matter :: DisableBreadcrumb</title>
+      <link>https://aidin-lgit.github.io/aidin_teleop/frontmatter/disablebreadcrumb/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aidin-lgit.github.io/aidin_teleop/frontmatter/disablebreadcrumb/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Front Matter :: DisableMarkdownButton</title>
+      <link>https://aidin-lgit.github.io/aidin_teleop/frontmatter/disablemarkdownbutton/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aidin-lgit.github.io/aidin_teleop/frontmatter/disablemarkdownbutton/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Front Matter :: DisableNextPrev</title>
+      <link>https://aidin-lgit.github.io/aidin_teleop/frontmatter/disablenextprev/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aidin-lgit.github.io/aidin_teleop/frontmatter/disablenextprev/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Front Matter :: DisablePrintButton</title>
+      <link>https://aidin-lgit.github.io/aidin_teleop/frontmatter/disableprintbutton/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aidin-lgit.github.io/aidin_teleop/frontmatter/disableprintbutton/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Front Matter :: DisableSourceButton</title>
+      <link>https://aidin-lgit.github.io/aidin_teleop/frontmatter/disablesourcebutton/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aidin-lgit.github.io/aidin_teleop/frontmatter/disablesourcebutton/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Front Matter :: DisableToc</title>
+      <link>https://aidin-lgit.github.io/aidin_teleop/frontmatter/disabletoc/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aidin-lgit.github.io/aidin_teleop/frontmatter/disabletoc/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Front Matter :: EditURL</title>
+      <link>https://aidin-lgit.github.io/aidin_teleop/frontmatter/editurl/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aidin-lgit.github.io/aidin_teleop/frontmatter/editurl/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Front Matter :: ExternalLinkTarget</title>
+      <link>https://aidin-lgit.github.io/aidin_teleop/frontmatter/externallinktarget/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aidin-lgit.github.io/aidin_teleop/frontmatter/externallinktarget/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Front Matter :: HeadingPost</title>
+      <link>https://aidin-lgit.github.io/aidin_teleop/frontmatter/headingpost/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aidin-lgit.github.io/aidin_teleop/frontmatter/headingpost/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Front Matter :: HeadingPre</title>
+      <link>https://aidin-lgit.github.io/aidin_teleop/frontmatter/headingpre/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aidin-lgit.github.io/aidin_teleop/frontmatter/headingpre/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Front Matter :: Hidden</title>
+      <link>https://aidin-lgit.github.io/aidin_teleop/frontmatter/hidden/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aidin-lgit.github.io/aidin_teleop/frontmatter/hidden/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Front Matter :: HighlightWrap</title>
+      <link>https://aidin-lgit.github.io/aidin_teleop/frontmatter/highlightwrap/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aidin-lgit.github.io/aidin_teleop/frontmatter/highlightwrap/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Front Matter :: Image.errorlevel</title>
+      <link>https://aidin-lgit.github.io/aidin_teleop/frontmatter/image.errorlevel/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aidin-lgit.github.io/aidin_teleop/frontmatter/image.errorlevel/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Front Matter :: ImageEffects</title>
+      <link>https://aidin-lgit.github.io/aidin_teleop/frontmatter/imageeffects/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aidin-lgit.github.io/aidin_teleop/frontmatter/imageeffects/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Front Matter :: Include.errorlevel</title>
+      <link>https://aidin-lgit.github.io/aidin_teleop/frontmatter/include.errorlevel/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aidin-lgit.github.io/aidin_teleop/frontmatter/include.errorlevel/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Front Matter :: LastModifierDisplayName</title>
+      <link>https://aidin-lgit.github.io/aidin_teleop/frontmatter/lastmodifierdisplayname/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aidin-lgit.github.io/aidin_teleop/frontmatter/lastmodifierdisplayname/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Front Matter :: LastModifierEmail</title>
+      <link>https://aidin-lgit.github.io/aidin_teleop/frontmatter/lastmodifieremail/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aidin-lgit.github.io/aidin_teleop/frontmatter/lastmodifieremail/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Front Matter :: Link.errorlevel</title>
+      <link>https://aidin-lgit.github.io/aidin_teleop/frontmatter/link.errorlevel/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aidin-lgit.github.io/aidin_teleop/frontmatter/link.errorlevel/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Front Matter :: LinkEffects</title>
+      <link>https://aidin-lgit.github.io/aidin_teleop/frontmatter/linkeffects/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aidin-lgit.github.io/aidin_teleop/frontmatter/linkeffects/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Front Matter :: LinkTitle</title>
+      <link>https://aidin-lgit.github.io/aidin_teleop/frontmatter/linktitle/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aidin-lgit.github.io/aidin_teleop/frontmatter/linktitle/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Front Matter :: Math</title>
+      <link>https://aidin-lgit.github.io/aidin_teleop/frontmatter/math/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aidin-lgit.github.io/aidin_teleop/frontmatter/math/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Front Matter :: Math.force</title>
+      <link>https://aidin-lgit.github.io/aidin_teleop/frontmatter/math.force/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aidin-lgit.github.io/aidin_teleop/frontmatter/math.force/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Front Matter :: MathJaxInitialize</title>
+      <link>https://aidin-lgit.github.io/aidin_teleop/frontmatter/mathjaxinitialize/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aidin-lgit.github.io/aidin_teleop/frontmatter/mathjaxinitialize/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Front Matter :: MenuPageRef</title>
+      <link>https://aidin-lgit.github.io/aidin_teleop/frontmatter/menupageref/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aidin-lgit.github.io/aidin_teleop/frontmatter/menupageref/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Front Matter :: MenuPost</title>
+      <link>https://aidin-lgit.github.io/aidin_teleop/frontmatter/menupost/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aidin-lgit.github.io/aidin_teleop/frontmatter/menupost/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Front Matter :: MenuPre</title>
+      <link>https://aidin-lgit.github.io/aidin_teleop/frontmatter/menupre/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aidin-lgit.github.io/aidin_teleop/frontmatter/menupre/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Front Matter :: MenuUrl</title>
+      <link>https://aidin-lgit.github.io/aidin_teleop/frontmatter/menuurl/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aidin-lgit.github.io/aidin_teleop/frontmatter/menuurl/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Front Matter :: Mermaid.force</title>
+      <link>https://aidin-lgit.github.io/aidin_teleop/frontmatter/mermaid.force/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aidin-lgit.github.io/aidin_teleop/frontmatter/mermaid.force/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Front Matter :: MermaidInitialize</title>
+      <link>https://aidin-lgit.github.io/aidin_teleop/frontmatter/mermaidinitialize/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aidin-lgit.github.io/aidin_teleop/frontmatter/mermaidinitialize/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Front Matter :: MermaidZoom</title>
+      <link>https://aidin-lgit.github.io/aidin_teleop/frontmatter/mermaidzoom/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aidin-lgit.github.io/aidin_teleop/frontmatter/mermaidzoom/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Front Matter :: Openapi.errorlevel</title>
+      <link>https://aidin-lgit.github.io/aidin_teleop/frontmatter/openapi.errorlevel/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aidin-lgit.github.io/aidin_teleop/frontmatter/openapi.errorlevel/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Front Matter :: Openapi.force</title>
+      <link>https://aidin-lgit.github.io/aidin_teleop/frontmatter/openapi.force/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aidin-lgit.github.io/aidin_teleop/frontmatter/openapi.force/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Front Matter :: Ordersectionsby</title>
+      <link>https://aidin-lgit.github.io/aidin_teleop/frontmatter/ordersectionsby/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aidin-lgit.github.io/aidin_teleop/frontmatter/ordersectionsby/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Front Matter :: Sidebarfootermenus</title>
+      <link>https://aidin-lgit.github.io/aidin_teleop/frontmatter/sidebarfootermenus/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aidin-lgit.github.io/aidin_teleop/frontmatter/sidebarfootermenus/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Front Matter :: Sidebarheadermenus</title>
+      <link>https://aidin-lgit.github.io/aidin_teleop/frontmatter/sidebarheadermenus/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aidin-lgit.github.io/aidin_teleop/frontmatter/sidebarheadermenus/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Front Matter :: Sidebarmenus</title>
+      <link>https://aidin-lgit.github.io/aidin_teleop/frontmatter/sidebarmenus/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aidin-lgit.github.io/aidin_teleop/frontmatter/sidebarmenus/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Front Matter :: UrlExternalCheck</title>
+      <link>https://aidin-lgit.github.io/aidin_teleop/frontmatter/urlexternalcheck/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aidin-lgit.github.io/aidin_teleop/frontmatter/urlexternalcheck/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Front Matter :: UrlIgnoreCheck</title>
+      <link>https://aidin-lgit.github.io/aidin_teleop/frontmatter/urlignorecheck/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aidin-lgit.github.io/aidin_teleop/frontmatter/urlignorecheck/index.html</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

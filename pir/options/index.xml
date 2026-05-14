@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Options :: Cap&#39;n Hugo Relearrrn Theme</title>
+    <link>https://aidin-lgit.github.io/aidin_teleop/pir/options/index.html</link>
+    <description></description>
+    <generator>Hugo</generator>
+    <language>art-x-pir</language>
+    <atom:link href="https://aidin-lgit.github.io/aidin_teleop/pir/options/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Option :: AdditionalContentLanguage</title>
+      <link>https://aidin-lgit.github.io/aidin_teleop/pir/options/additionalcontentlanguage/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aidin-lgit.github.io/aidin_teleop/pir/options/additionalcontentlanguage/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Option :: Alwaysopen</title>
+      <link>https://aidin-lgit.github.io/aidin_teleop/pir/options/alwaysopen/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aidin-lgit.github.io/aidin_teleop/pir/options/alwaysopen/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Option :: Author.email</title>
+      <link>https://aidin-lgit.github.io/aidin_teleop/pir/options/author.email/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aidin-lgit.github.io/aidin_teleop/pir/options/author.email/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Option :: Author.name</title>
+      <link>https://aidin-lgit.github.io/aidin_teleop/pir/options/author.name/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aidin-lgit.github.io/aidin_teleop/pir/options/author.name/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Option :: BoxStyle</title>
+      <link>https://aidin-lgit.github.io/aidin_teleop/pir/options/boxstyle/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aidin-lgit.github.io/aidin_teleop/pir/options/boxstyle/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Option :: BreadcrumbSeparator</title>
+      <link>https://aidin-lgit.github.io/aidin_teleop/pir/options/breadcrumbseparator/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aidin-lgit.github.io/aidin_teleop/pir/options/breadcrumbseparator/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Option :: CollapsibleMenu</title>
+      <link>https://aidin-lgit.github.io/aidin_teleop/pir/options/collapsiblemenu/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aidin-lgit.github.io/aidin_teleop/pir/options/collapsiblemenu/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Option :: CustomMathJaxURL</title>
+      <link>https://aidin-lgit.github.io/aidin_teleop/pir/options/custommathjaxurl/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aidin-lgit.github.io/aidin_teleop/pir/options/custommathjaxurl/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Option :: CustomMermaidURL</title>
+      <link>https://aidin-lgit.github.io/aidin_teleop/pir/options/custommermaidurl/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aidin-lgit.github.io/aidin_teleop/pir/options/custommermaidurl/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Option :: CustomOpenapiURL</title>
+      <link>https://aidin-lgit.github.io/aidin_teleop/pir/options/customopenapiurl/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aidin-lgit.github.io/aidin_teleop/pir/options/customopenapiurl/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Option :: DateFormat</title>
+      <link>https://aidin-lgit.github.io/aidin_teleop/pir/options/dateformat/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aidin-lgit.github.io/aidin_teleop/pir/options/dateformat/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Option :: DisableAnchorCopy</title>
+      <link>https://aidin-lgit.github.io/aidin_teleop/pir/options/disableanchorcopy/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aidin-lgit.github.io/aidin_teleop/pir/options/disableanchorcopy/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Option :: DisableAnchorScrolling</title>
+      <link>https://aidin-lgit.github.io/aidin_teleop/pir/options/disableanchorscrolling/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aidin-lgit.github.io/aidin_teleop/pir/options/disableanchorscrolling/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Option :: DisableAssetsBusting</title>
+      <link>https://aidin-lgit.github.io/aidin_teleop/pir/options/disableassetsbusting/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aidin-lgit.github.io/aidin_teleop/pir/options/disableassetsbusting/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Option :: DisableBreadcrumb</title>
+      <link>https://aidin-lgit.github.io/aidin_teleop/pir/options/disablebreadcrumb/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aidin-lgit.github.io/aidin_teleop/pir/options/disablebreadcrumb/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Option :: DisableDefaultRelref</title>
+      <link>https://aidin-lgit.github.io/aidin_teleop/pir/options/disabledefaultrelref/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aidin-lgit.github.io/aidin_teleop/pir/options/disabledefaultrelref/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Option :: DisableExplicitIndexURLs</title>
+      <link>https://aidin-lgit.github.io/aidin_teleop/pir/options/disableexplicitindexurls/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aidin-lgit.github.io/aidin_teleop/pir/options/disableexplicitindexurls/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Option :: DisableGeneratorVersion</title>
+      <link>https://aidin-lgit.github.io/aidin_teleop/pir/options/disablegeneratorversion/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aidin-lgit.github.io/aidin_teleop/pir/options/disablegeneratorversion/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Option :: DisableHoverBlockCopyToClipBoard</title>
+      <link>https://aidin-lgit.github.io/aidin_teleop/pir/options/disablehoverblockcopytoclipboard/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aidin-lgit.github.io/aidin_teleop/pir/options/disablehoverblockcopytoclipboard/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Option :: DisableInlineCopyToClipBoard</title>
+      <link>https://aidin-lgit.github.io/aidin_teleop/pir/options/disableinlinecopytoclipboard/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aidin-lgit.github.io/aidin_teleop/pir/options/disableinlinecopytoclipboard/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Option :: DisableLandingPageButton</title>
+      <link>https://aidin-lgit.github.io/aidin_teleop/pir/options/disablelandingpagebutton/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aidin-lgit.github.io/aidin_teleop/pir/options/disablelandingpagebutton/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Option :: DisableLanguageSwitchingButton</title>
+      <link>https://aidin-lgit.github.io/aidin_teleop/pir/options/disablelanguageswitchingbutton/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aidin-lgit.github.io/aidin_teleop/pir/options/disablelanguageswitchingbutton/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Option :: DisableMarkdownButton</title>
+      <link>https://aidin-lgit.github.io/aidin_teleop/pir/options/disablemarkdownbutton/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aidin-lgit.github.io/aidin_teleop/pir/options/disablemarkdownbutton/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Option :: DisableNextPrev</title>
+      <link>https://aidin-lgit.github.io/aidin_teleop/pir/options/disablenextprev/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aidin-lgit.github.io/aidin_teleop/pir/options/disablenextprev/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Option :: DisablePrintButton</title>
+      <link>https://aidin-lgit.github.io/aidin_teleop/pir/options/disableprintbutton/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aidin-lgit.github.io/aidin_teleop/pir/options/disableprintbutton/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Option :: DisableRandomIds</title>
+      <link>https://aidin-lgit.github.io/aidin_teleop/pir/options/disablerandomids/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aidin-lgit.github.io/aidin_teleop/pir/options/disablerandomids/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Option :: DisableRootBreadcrumb</title>
+      <link>https://aidin-lgit.github.io/aidin_teleop/pir/options/disablerootbreadcrumb/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aidin-lgit.github.io/aidin_teleop/pir/options/disablerootbreadcrumb/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Option :: DisableSearch</title>
+      <link>https://aidin-lgit.github.io/aidin_teleop/pir/options/disablesearch/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aidin-lgit.github.io/aidin_teleop/pir/options/disablesearch/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Option :: DisableSearchHiddenPages</title>
+      <link>https://aidin-lgit.github.io/aidin_teleop/pir/options/disablesearchhiddenpages/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aidin-lgit.github.io/aidin_teleop/pir/options/disablesearchhiddenpages/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Option :: DisableSearchIndex</title>
+      <link>https://aidin-lgit.github.io/aidin_teleop/pir/options/disablesearchindex/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aidin-lgit.github.io/aidin_teleop/pir/options/disablesearchindex/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Option :: DisableSearchPage</title>
+      <link>https://aidin-lgit.github.io/aidin_teleop/pir/options/disablesearchpage/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aidin-lgit.github.io/aidin_teleop/pir/options/disablesearchpage/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Option :: DisableSeoHiddenPages</title>
+      <link>https://aidin-lgit.github.io/aidin_teleop/pir/options/disableseohiddenpages/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aidin-lgit.github.io/aidin_teleop/pir/options/disableseohiddenpages/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Option :: DisableShortcutsTitle</title>
+      <link>https://aidin-lgit.github.io/aidin_teleop/pir/options/disableshortcutstitle/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aidin-lgit.github.io/aidin_teleop/pir/options/disableshortcutstitle/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Option :: DisableSourceButton</title>
+      <link>https://aidin-lgit.github.io/aidin_teleop/pir/options/disablesourcebutton/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aidin-lgit.github.io/aidin_teleop/pir/options/disablesourcebutton/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Option :: DisableTagHiddenPages</title>
+      <link>https://aidin-lgit.github.io/aidin_teleop/pir/options/disabletaghiddenpages/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aidin-lgit.github.io/aidin_teleop/pir/options/disabletaghiddenpages/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Option :: DisableTermBreadcrumbs</title>
+      <link>https://aidin-lgit.github.io/aidin_teleop/pir/options/disabletermbreadcrumbs/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aidin-lgit.github.io/aidin_teleop/pir/options/disabletermbreadcrumbs/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Option :: DisableToc</title>
+      <link>https://aidin-lgit.github.io/aidin_teleop/pir/options/disabletoc/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aidin-lgit.github.io/aidin_teleop/pir/options/disabletoc/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Option :: DisableVersioningWarning</title>
+      <link>https://aidin-lgit.github.io/aidin_teleop/pir/options/disableversioningwarning/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aidin-lgit.github.io/aidin_teleop/pir/options/disableversioningwarning/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Option :: EditURL</title>
+      <link>https://aidin-lgit.github.io/aidin_teleop/pir/options/editurl/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aidin-lgit.github.io/aidin_teleop/pir/options/editurl/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Option :: EnableLegacyLanguageLinks</title>
+      <link>https://aidin-lgit.github.io/aidin_teleop/pir/options/enablelegacylanguagelinks/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aidin-lgit.github.io/aidin_teleop/pir/options/enablelegacylanguagelinks/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Option :: ExternalLinkTarget</title>
+      <link>https://aidin-lgit.github.io/aidin_teleop/pir/options/externallinktarget/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aidin-lgit.github.io/aidin_teleop/pir/options/externallinktarget/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Option :: HideAuthorDate</title>
+      <link>https://aidin-lgit.github.io/aidin_teleop/pir/options/hideauthordate/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aidin-lgit.github.io/aidin_teleop/pir/options/hideauthordate/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Option :: HideAuthorEmail</title>
+      <link>https://aidin-lgit.github.io/aidin_teleop/pir/options/hideauthoremail/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aidin-lgit.github.io/aidin_teleop/pir/options/hideauthoremail/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Option :: HideAuthorName</title>
+      <link>https://aidin-lgit.github.io/aidin_teleop/pir/options/hideauthorname/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aidin-lgit.github.io/aidin_teleop/pir/options/hideauthorname/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Option :: HighlightWrap</title>
+      <link>https://aidin-lgit.github.io/aidin_teleop/pir/options/highlightwrap/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aidin-lgit.github.io/aidin_teleop/pir/options/highlightwrap/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Option :: Image.errorlevel</title>
+      <link>https://aidin-lgit.github.io/aidin_teleop/pir/options/image.errorlevel/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aidin-lgit.github.io/aidin_teleop/pir/options/image.errorlevel/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Option :: ImageEffects</title>
+      <link>https://aidin-lgit.github.io/aidin_teleop/pir/options/imageeffects/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aidin-lgit.github.io/aidin_teleop/pir/options/imageeffects/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Option :: Include.errorlevel</title>
+      <link>https://aidin-lgit.github.io/aidin_teleop/pir/options/include.errorlevel/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aidin-lgit.github.io/aidin_teleop/pir/options/include.errorlevel/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Option :: LandingPageName</title>
+      <link>https://aidin-lgit.github.io/aidin_teleop/pir/options/landingpagename/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aidin-lgit.github.io/aidin_teleop/pir/options/landingpagename/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Option :: Link.errorlevel</title>
+      <link>https://aidin-lgit.github.io/aidin_teleop/pir/options/link.errorlevel/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aidin-lgit.github.io/aidin_teleop/pir/options/link.errorlevel/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Option :: LinkEffects</title>
+      <link>https://aidin-lgit.github.io/aidin_teleop/pir/options/linkeffects/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aidin-lgit.github.io/aidin_teleop/pir/options/linkeffects/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Option :: LinkTitle</title>
+      <link>https://aidin-lgit.github.io/aidin_teleop/pir/options/linktitle/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aidin-lgit.github.io/aidin_teleop/pir/options/linktitle/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Option :: Logo</title>
+      <link>https://aidin-lgit.github.io/aidin_teleop/pir/options/logo/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aidin-lgit.github.io/aidin_teleop/pir/options/logo/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Option :: Math</title>
+      <link>https://aidin-lgit.github.io/aidin_teleop/pir/options/math/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aidin-lgit.github.io/aidin_teleop/pir/options/math/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Option :: Math.force</title>
+      <link>https://aidin-lgit.github.io/aidin_teleop/pir/options/math.force/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aidin-lgit.github.io/aidin_teleop/pir/options/math.force/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Option :: MathJaxInitialize</title>
+      <link>https://aidin-lgit.github.io/aidin_teleop/pir/options/mathjaxinitialize/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aidin-lgit.github.io/aidin_teleop/pir/options/mathjaxinitialize/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Option :: Mermaid.force</title>
+      <link>https://aidin-lgit.github.io/aidin_teleop/pir/options/mermaid.force/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aidin-lgit.github.io/aidin_teleop/pir/options/mermaid.force/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Option :: MermaidInitialize</title>
+      <link>https://aidin-lgit.github.io/aidin_teleop/pir/options/mermaidinitialize/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aidin-lgit.github.io/aidin_teleop/pir/options/mermaidinitialize/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Option :: MermaidZoom</title>
+      <link>https://aidin-lgit.github.io/aidin_teleop/pir/options/mermaidzoom/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aidin-lgit.github.io/aidin_teleop/pir/options/mermaidzoom/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Option :: Minify</title>
+      <link>https://aidin-lgit.github.io/aidin_teleop/pir/options/minify/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aidin-lgit.github.io/aidin_teleop/pir/options/minify/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Option :: Openapi.errorlevel</title>
+      <link>https://aidin-lgit.github.io/aidin_teleop/pir/options/openapi.errorlevel/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aidin-lgit.github.io/aidin_teleop/pir/options/openapi.errorlevel/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Option :: Openapi.force</title>
+      <link>https://aidin-lgit.github.io/aidin_teleop/pir/options/openapi.force/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aidin-lgit.github.io/aidin_teleop/pir/options/openapi.force/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Option :: Ordersectionsby</title>
+      <link>https://aidin-lgit.github.io/aidin_teleop/pir/options/ordersectionsby/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aidin-lgit.github.io/aidin_teleop/pir/options/ordersectionsby/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Option :: Relearn.dependencies</title>
+      <link>https://aidin-lgit.github.io/aidin_teleop/pir/options/relearn.dependencies/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aidin-lgit.github.io/aidin_teleop/pir/options/relearn.dependencies/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Option :: SearchIndexURL</title>
+      <link>https://aidin-lgit.github.io/aidin_teleop/pir/options/searchindexurl/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aidin-lgit.github.io/aidin_teleop/pir/options/searchindexurl/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Option :: SearchPageURL</title>
+      <link>https://aidin-lgit.github.io/aidin_teleop/pir/options/searchpageurl/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aidin-lgit.github.io/aidin_teleop/pir/options/searchpageurl/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Option :: ShowVisitedLinks</title>
+      <link>https://aidin-lgit.github.io/aidin_teleop/pir/options/showvisitedlinks/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aidin-lgit.github.io/aidin_teleop/pir/options/showvisitedlinks/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Option :: Sidebarfootermenus</title>
+      <link>https://aidin-lgit.github.io/aidin_teleop/pir/options/sidebarfootermenus/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aidin-lgit.github.io/aidin_teleop/pir/options/sidebarfootermenus/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Option :: Sidebarheadermenus</title>
+      <link>https://aidin-lgit.github.io/aidin_teleop/pir/options/sidebarheadermenus/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aidin-lgit.github.io/aidin_teleop/pir/options/sidebarheadermenus/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Option :: Sidebarmenus</title>
+      <link>https://aidin-lgit.github.io/aidin_teleop/pir/options/sidebarmenus/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aidin-lgit.github.io/aidin_teleop/pir/options/sidebarmenus/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Option :: ThemeVariant</title>
+      <link>https://aidin-lgit.github.io/aidin_teleop/pir/options/themevariant/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aidin-lgit.github.io/aidin_teleop/pir/options/themevariant/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Option :: TitleSeparator</title>
+      <link>https://aidin-lgit.github.io/aidin_teleop/pir/options/titleseparator/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aidin-lgit.github.io/aidin_teleop/pir/options/titleseparator/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Option :: UrlExternalCheck</title>
+      <link>https://aidin-lgit.github.io/aidin_teleop/pir/options/urlexternalcheck/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aidin-lgit.github.io/aidin_teleop/pir/options/urlexternalcheck/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Option :: UrlIgnoreCheck</title>
+      <link>https://aidin-lgit.github.io/aidin_teleop/pir/options/urlignorecheck/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aidin-lgit.github.io/aidin_teleop/pir/options/urlignorecheck/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Option :: Version</title>
+      <link>https://aidin-lgit.github.io/aidin_teleop/pir/options/version/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aidin-lgit.github.io/aidin_teleop/pir/options/version/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Option :: VersionIndexURL</title>
+      <link>https://aidin-lgit.github.io/aidin_teleop/pir/options/versionindexurl/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aidin-lgit.github.io/aidin_teleop/pir/options/versionindexurl/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Option :: Versions</title>
+      <link>https://aidin-lgit.github.io/aidin_teleop/pir/options/versions/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aidin-lgit.github.io/aidin_teleop/pir/options/versions/index.html</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
