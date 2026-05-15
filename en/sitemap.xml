@@ -469,6 +469,12 @@
     <xhtml:link rel="alternate" hreflang="art-x-pir" href="https://aidin-lgit.github.io/aidin_teleop/pir/tags/the-hidden/index.html" />
   </url>
   <url>
+    <loc>https://aidin-lgit.github.io/aidin_teleop/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://aidin-lgit.github.io/aidin_teleop/index.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://aidin-lgit.github.io/aidin_teleop/index.html" />
+    <xhtml:link rel="alternate" hreflang="art-x-pir" href="https://aidin-lgit.github.io/aidin_teleop/pir/index.html" />
+  </url>
+  <url>
     <loc>https://aidin-lgit.github.io/aidin_teleop/frontmatter/alwaysopen/index.html</loc>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://aidin-lgit.github.io/aidin_teleop/frontmatter/alwaysopen/index.html" />
     <xhtml:link rel="alternate" hreflang="en" href="https://aidin-lgit.github.io/aidin_teleop/frontmatter/alwaysopen/index.html" />
@@ -881,12 +887,6 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://aidin-lgit.github.io/aidin_teleop/options/highlightwrap/index.html" />
     <xhtml:link rel="alternate" hreflang="en" href="https://aidin-lgit.github.io/aidin_teleop/options/highlightwrap/index.html" />
     <xhtml:link rel="alternate" hreflang="art-x-pir" href="https://aidin-lgit.github.io/aidin_teleop/pir/options/highlightwrap/index.html" />
-  </url>
-  <url>
-    <loc>https://aidin-lgit.github.io/aidin_teleop/index.html</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://aidin-lgit.github.io/aidin_teleop/index.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://aidin-lgit.github.io/aidin_teleop/index.html" />
-    <xhtml:link rel="alternate" hreflang="art-x-pir" href="https://aidin-lgit.github.io/aidin_teleop/pir/index.html" />
   </url>
   <url>
     <loc>https://aidin-lgit.github.io/aidin_teleop/shortcodes/icon/index.html</loc>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags :: Hugo Relearn Theme</title>
+    <title>Tags :: Aidin Teleop Doc Test</title>
     <link>https://aidin-lgit.github.io/aidin_teleop/tags/index.html</link>
     <description>Front Matter You can define optional content in your overridden taxonomy page. As well you can define optional title and singulartitle that will override the values from your hugo.toml or of your translation files.</description>
     <generator>Hugo</generator>

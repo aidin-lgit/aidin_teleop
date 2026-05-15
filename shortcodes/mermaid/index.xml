@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Mermaid :: Hugo Relearn Theme</title>
+    <title>Mermaid :: Aidin Teleop Doc Test</title>
     <link>https://aidin-lgit.github.io/aidin_teleop/shortcodes/mermaid/index.html</link>
     <description>Generate diagrams and flowcharts from text</description>
     <generator>Hugo</generator>

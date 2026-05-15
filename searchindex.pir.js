@@ -1681,7 +1681,7 @@ var relearn_searchindex = [
   },
   {
     "breadcrumb": "",
-    "content": "Arrr! Pirrrates Fello' pirrrates, grog made us dizzy! Be awarrre some stuff may look weird in this trrranslat'n. Like seeing Merrrmaids and stuff.",
+    "content": "Arrr! Pirrrates Fello' pirrrates, grog made us dizzy! Be awarrre some stuff may look weird in this trrranslat'n. Like seeing Merrrmaids and stuff.\nAhoi 메뉴얼 작성 예정",
     "description": "A theme fer Cap'n Hugo designed fer documentat'n.",
     "tags": [],
     "title": "Cap'n Hugo Relearrrn Theme",

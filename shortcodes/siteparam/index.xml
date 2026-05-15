@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>SiteParam :: Hugo Relearn Theme</title>
+    <title>SiteParam :: Aidin Teleop Doc Test</title>
     <link>https://aidin-lgit.github.io/aidin_teleop/shortcodes/siteparam/index.html</link>
     <description>Get value of site params</description>
     <generator>Hugo</generator>

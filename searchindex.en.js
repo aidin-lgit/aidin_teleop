@@ -1608,6 +1608,14 @@ var relearn_searchindex = [
     "uri": "/aidin_teleop/tags/the-hidden/index.html"
   },
   {
+    "breadcrumb": "",
+    "content": "Info 메뉴얼 작성 예정",
+    "description": "A theme for Hugo designed for documentation.",
+    "tags": [],
+    "title": "Aidin Teleop Doc Test",
+    "uri": "/aidin_teleop/index.html"
+  },
+  {
     "breadcrumb": "Front Matter",
     "content": "",
     "description": "",
@@ -2174,14 +2182,6 @@ var relearn_searchindex = [
     "tags": [],
     "title": "Option :: HighlightWrap",
     "uri": "/aidin_teleop/options/highlightwrap/index.html"
-  },
-  {
-    "breadcrumb": "",
-    "content": "",
-    "description": "A theme for Hugo designed for documentation.",
-    "tags": [],
-    "title": "Hugo Relearn Theme",
-    "uri": "/aidin_teleop/index.html"
   },
   {
     "breadcrumb": "Shortcodes",

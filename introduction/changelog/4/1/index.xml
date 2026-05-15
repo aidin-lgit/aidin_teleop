@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Version 4.1 :: Hugo Relearn Theme</title>
+    <title>Version 4.1 :: Aidin Teleop Doc Test</title>
     <link>https://aidin-lgit.github.io/aidin_teleop/introduction/changelog/4/1/index.html</link>
     <description>4.1.1 (2022-06-18) Fixes [bug] notice: fix layout when content starts with heading #275 4.1.0 (2022-06-12) Enhancements [feature] i18n: support multilang content #271</description>
     <generator>Hugo</generator>
