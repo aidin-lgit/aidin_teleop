@@ -1,6 +1,6 @@
 +++
-description = 'A theme for Hugo designed for documentation.'
-title = 'Hugo Relearn Theme'
+title = 'Aidin Teleoperation System Documentation'
+description = 'LG이노텍 휴머노이드 텔레옵 시스템 매뉴얼'
 type = 'home'
 
 [[cascade]]
@@ -10,6 +10,9 @@ type = 'home'
   [cascade.target]
     path = '/introduction/changelog/*/*/*'
 +++
-{{% replaceRE "https://mcshelby.github.io/hugo-theme-relearn/" "" %}}
-{{< include "README.md" "true" >}}
-{{% /replaceRE %}}
+
+# Aidin Teleoperation System Documentation
+
+{{% notice info %}}
+메뉴얼 작성 예정
+{{% /notice %}}
