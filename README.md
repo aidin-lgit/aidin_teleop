@@ -1,87 +1,79 @@
-# Hugo Relearn Theme
+# AIDIN Teleop Documentation Site
 
-A theme for [Hugo](https://gohugo.io/) designed for documentation.
+[![Pages](https://img.shields.io/badge/docs-online-brightgreen)](https://aidin-lgit.github.io/aidin_teleop/)
 
-[★ What's new in the latest version ★](https://mcshelby.github.io/hugo-theme-relearn/introduction/releasenotes)
+**Rainbow Robotics RBY1 + AIDIN Robot Hand** 휴머노이드 원격제어 및 Physical AI 학습·추론 파이프라인의 공식 한국어 매뉴얼.
 
-![Image of the Relearn theme in light and dark mode on phone, tablet and desktop](https://mcshelby.github.io/hugo-theme-relearn/images/hero.png)
+> 🌐 **라이브 사이트**: <https://aidin-lgit.github.io/aidin_teleop/>
 
-## Overview
+## 스택
 
-The Relearn theme is an enhanced fork of the popular [Learn theme](https://github.com/matcornic/hugo-theme-learn). It aims to address long-standing issues and incorporate the latest Hugo features while trying to maintain compatibility with its predecessor.
+- [Hugo](https://gohugo.io/) (정적 사이트 생성기)
+- [Hugo Relearn Theme](https://github.com/McShelby/hugo-theme-relearn) (포크하여 커스터마이즈)
+- 한국어 단일, Zen Light/Dark + Noto Sans KR
 
-## Key Features
+## 로컬 개발
 
-- **Versatile Usage**
-  - [Responsive design for mobile devices](https://mcshelby.github.io/hugo-theme-relearn/configuration/sidebar/width)
-  - [Looks nice on paper](https://mcshelby.github.io/hugo-theme-relearn/configuration/sitemanagement/outputformats) - if it has to
-  - [Usable offline with no external dependencies](https://mcshelby.github.io/hugo-theme-relearn/configuration/sitemanagement/deployment#offline-usage)
-  - [Usable from your local file system without a web server](https://mcshelby.github.io/hugo-theme-relearn/configuration/sitemanagement/deployment#file-system) via `file://` protocol
-  - [Integration with the VSCode Front Matter CMS extension](https://mcshelby.github.io/hugo-theme-relearn/introduction/tools#front-matter-cms) for on-premise CMS capabilities
+```bash
+cd docs
+hugo server -p 3131 --cleanDestinationDir
+```
 
-- **Customizable Appearance**
-  - [Flexible brand image configuration](https://mcshelby.github.io/hugo-theme-relearn/configuration/branding/logo#changing-the-logo)
-  - [Automatic light/dark mode switching based on OS settings](https://mcshelby.github.io/hugo-theme-relearn/configuration/branding/colors#adjust-to-os-settings)
-  - [Many pre-defined color variants](https://mcshelby.github.io/hugo-theme-relearn/configuration/branding/colors#shipped-variants)
-  - [User-selectable variants](https://mcshelby.github.io/hugo-theme-relearn/configuration/branding/colors#multiple-variants)
-  - [Built-in stylesheet generator](https://mcshelby.github.io/hugo-theme-relearn/configuration/branding/generator)
-  - [Customizable syntax highlighting](https://mcshelby.github.io/hugo-theme-relearn/configuration/branding/modules/#change-syntax-highlighting)
+→ <http://localhost:3131/aidin_teleop/>
 
-- **Advanced Functionality**
-  - [Chapter and site-wide printing capabilities](https://mcshelby.github.io/hugo-theme-relearn/configuration/sitemanagement/outputformats#print-support)
-  - [Versatile search options: in-page, popup, and dedicated search page](https://mcshelby.github.io/hugo-theme-relearn/configuration/sidebar/search)
-  - [Customizable topbar buttons](https://mcshelby.github.io/hugo-theme-relearn/configuration/customization/topbar)
-  - [Configurable sidebar menus](https://mcshelby.github.io/hugo-theme-relearn/configuration/sidebar/menus)
-  - [Support for hidden pages](https://mcshelby.github.io/hugo-theme-relearn/configuration/content/hidden)
-  - [Comprehensive taxonomy support](https://mcshelby.github.io/hugo-theme-relearn/configuration/customization/taxonomy)
-  - [Versioning support](https://mcshelby.github.io/hugo-theme-relearn/configuration/sitemanagement/versioning)
-  - [Social media integration](https://mcshelby.github.io/hugo-theme-relearn/configuration/sitemanagement/meta#social-media-images)
+## 저장소 구조
 
-- **Multilingual Support**
-  - [Full right-to-left (RTL) language support](https://mcshelby.github.io/hugo-theme-relearn/configuration/sitemanagement/multilingual)
-  - [Extensive list of supported languages](https://mcshelby.github.io/hugo-theme-relearn/configuration/sitemanagement/multilingual): Arabic, Chinese (Simplified and Traditional), Czech, Danish, Dutch, English, Finnish, French, German, Hindi, Hungarian, Indonesian, Italian, Japanese, Korean, Persian, Polish, Portuguese, Romanian, Russian, Spanish, Swahili, Turkish, Ukrainian, Vietnamese
-  - [Multilingual content search capabilities](https://mcshelby.github.io/hugo-theme-relearn/configuration/sidebar/search#mixed-language-support)
+```
+.
+├── docs/                       ← 매뉴얼 사이트
+│   ├── content/                ← 마크다운 콘텐츠 (이곳을 편집)
+│   │   ├── introduction/
+│   │   ├── architecture/
+│   │   ├── hardware-setup/
+│   │   ├── software-install/
+│   │   ├── teleoperation/
+│   │   ├── data-collection/
+│   │   ├── training/
+│   │   ├── inference/
+│   │   ├── tutorial/
+│   │   ├── troubleshooting/
+│   │   └── reference/
+│   ├── assets/images/          ← 로고·favicon (Hugo Pipes 처리)
+│   ├── static/images/          ← 본문 이미지 (그대로 서빙)
+│   ├── layouts/partials/       ← 테마 오버라이드 (auto-logo, custom-header)
+│   └── config/                 ← Hugo 설정 (_default / github)
+├── layouts/, assets/, i18n/    ← Relearn 테마 본체 (포크된 상태)
+└── .github/workflows/          ← GitHub Pages 자동 배포
+```
 
-- **Enhanced Markdown Features**
-  - [CommonMark compliant](https://mcshelby.github.io/hugo-theme-relearn/authoring/markdown)
-  - [Support for Markdown extensions like GitHub Flavored Markdown](https://mcshelby.github.io/hugo-theme-relearn/authoring/markdown#standard-and-extensions)
-  - [Support for Obsidian callouts](https://mcshelby.github.io/hugo-theme-relearn/authoring/markdown#obsidian-callouts)
-  - [Advanced link manipulation like download and target](https://mcshelby.github.io/hugo-theme-relearn/configuration/customization/linkeffects)
-  - [Advanced image manipulation like lightbox, sizing, shadows, borders and alignment](https://mcshelby.github.io/hugo-theme-relearn/configuration/customization/imageeffects)
+## 콘텐츠 편집
 
-- **Rich Shortcode Library**
-  - [Marker badges](https://mcshelby.github.io/hugo-theme-relearn/shortcodes/badge)
-  - [Flexible buttons](https://mcshelby.github.io/hugo-theme-relearn/shortcodes/button)
-  - [Card-based content organization](https://mcshelby.github.io/hugo-theme-relearn/shortcodes/card) and [card sets](https://mcshelby.github.io/hugo-theme-relearn/shortcodes/cards)
-  - [Child page listing](https://mcshelby.github.io/hugo-theme-relearn/shortcodes/children)
-  - [Expandable content areas](https://mcshelby.github.io/hugo-theme-relearn/shortcodes/expand)
-  - [Font Awesome icon integration](https://mcshelby.github.io/hugo-theme-relearn/shortcodes/icon)
-  - [File inclusion capabilities](https://mcshelby.github.io/hugo-theme-relearn/shortcodes/include)
-  - [Math support for mathematical and chemical formulae](https://mcshelby.github.io/hugo-theme-relearn/shortcodes/math)
-  - [Mermaid diagram integration](https://mcshelby.github.io/hugo-theme-relearn/shortcodes/mermaid)
-  - [Styled notice boxes](https://mcshelby.github.io/hugo-theme-relearn/shortcodes/notice)
-  - [OpenAPI specification rendering](https://mcshelby.github.io/hugo-theme-relearn/shortcodes/openapi)
-  - [Page bundle resource display](https://mcshelby.github.io/hugo-theme-relearn/shortcodes/resources)
-  - [Site configuration parameter display](https://mcshelby.github.io/hugo-theme-relearn/shortcodes/siteparam)
-  - [Tab-based content organization](https://mcshelby.github.io/hugo-theme-relearn/shortcodes/tab) and [multi-tab panels](https://mcshelby.github.io/hugo-theme-relearn/shortcodes/tabs)
-  - [Nicely formatted tree lists](https://mcshelby.github.io/hugo-theme-relearn/shortcodes/tree)
+새 페이지 추가:
 
-## Getting Started
+1. 해당 챕터 디렉토리에 `<slug>.md` 생성
+2. 프론트매터 작성:
 
-For a comprehensive guide on the theme's capabilities, please refer to the [official documentation](https://mcshelby.github.io/hugo-theme-relearn/introduction/quickstart).
+   ```toml
+   +++
+   title = "페이지 제목"
+   weight = 1
+   +++
+   ```
 
-## Updates and Changes
+3. 이미지는 `docs/static/images/` 에 두고 `![](/images/<file>)` 로 참조
+4. 사이즈 조정: `![](/images/foo.png?width=400)`
 
-Visit the [What's New](https://mcshelby.github.io/hugo-theme-relearn/introduction/releasenotes) page for feature highlights or the [detailed changelog](https://mcshelby.github.io/hugo-theme-relearn/introduction/changelog) for a complete list of updates.
+## 자동 배포
 
-## Contributing
+`main` 브랜치 push 시 [.github/workflows/docs-build-deployment.yaml](.github/workflows/docs-build-deployment.yaml) 가 트리거되어:
 
-We welcome contributions for bug fixes and new features. Please see the [contribution guidelines](https://mcshelby.github.io/hugo-theme-relearn/development/contributing) before getting started.
+1. Hugo 가 `docs/` 를 빌드
+2. `actions/deploy-pages` 가 GitHub Pages 로 배포
 
-## Licensing
+## Related Repository
 
-The Relearn theme is distributed under the [MIT License](https://github.com/McShelby/hugo-theme-relearn/blob/main/LICENSE).
+본 매뉴얼이 다루는 텔레옵 스택 소스 코드: <https://github.com/aidin-lgit/aidin_rby1_teleop>
 
-## Credits
+## Acknowledgements
 
-This theme is built on the shoulders of [giants](https://mcshelby.github.io/hugo-theme-relearn/more/credits).
+본 사이트는 [Hugo Relearn Theme](https://github.com/McShelby/hugo-theme-relearn) (MIT) 을 포크하여 사용합니다. 테마 원본 라이선스는 [LICENSE](LICENSE) 참조.

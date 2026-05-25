@@ -9,5 +9,5 @@
 [[ko.menu.shortcuts]]
   pre = '<i class="fa-fw fab fa-github"></i> '
   name = 'GitHub Repo'
-  url = 'https://github.com/aidin-lgit/aidin_teleop'
+  url = 'https://github.com/aidin-lgit/aidin_rby1_teleop'
   weight = 10
