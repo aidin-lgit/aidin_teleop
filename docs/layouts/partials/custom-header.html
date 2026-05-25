@@ -1,5 +1,24 @@
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+
     <style>
+      /* font override: keep Roboto Flex for Latin, fallback to Noto Sans KR for Korean */
+      :root {
+        --MAIN-font: "Roboto Flex", "Noto Sans KR", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+        /* page title (H1) bolder — Relearn default is 200 (thin) */
+        --MAIN-TITLES-H1-font-weight: 700;
+      }
+
+      /* heading sizes — H2 줄이면서 H3~H6 위계 유지 */
+      h2,
+      .card-title { font-size: 1.5rem;  }
+      h3          { font-size: 1.25rem; }
+      h4          { font-size: 1.1rem;  }
+      h5          { font-size: 1.0rem;  }
+      h6          { font-size: 0.9rem;  }
+
       /* image effects */
       #R-body img.bg-white {
         background-color: white;

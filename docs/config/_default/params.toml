@@ -42,7 +42,7 @@ images = [ 'images/hero.png' ]
 # of the menu. If not set, `title` from the Hugo settings will be used.
 # If the title is to long to fit on a single line it is automatically wrapped.
 # If you want manual control over the line breaks, you can insert newline characters.
-linkTitle = "Relearn"
+linkTitle = "AIDIN Teleop"
 
 # The title logo to be used in the upper left corner
 # Default: not set
@@ -54,7 +54,7 @@ linkTitle = "Relearn"
 # layouts/partials/logo.html.
 # If you als print a `linkTitle` you can set the `direction` sub-field to
 # either `column` or `row` to arrange logo and title accordingly.
-logo = { src = '/images/logo.svg?inlinecontent', direction = 'row' }
+logo = { src = '/images/aidin_logo_light.png', direction = 'row' }
 
 # Used color variants.
 # Default: 'auto'
@@ -81,19 +81,9 @@ logo = { src = '/images/logo.svg?inlinecontent', direction = 'row' }
 # You can also define your own variants. See the docs how this works. Also,
 # the docs provide an interactive theme generator to help you with this task.
 themeVariant = [
-	{ identifier = 'relearn-auto',  name = 'Relearn Light/Dark', auto = [ 'relearn-light', 'relearn-dark' ] },
-	{ identifier = 'relearn-dark'   },
-	{ identifier = 'relearn-light'  },
-	{ identifier = 'relearn-bright' },
-	{ identifier = 'zen-auto',      name = 'Zen Light/Dark', auto = [ 'zen-light', 'zen-dark' ] },
-	{ identifier = 'zen-dark'       },
-	{ identifier = 'zen-light'      },
-	{ identifier = 'retro-auto',    name = 'Retro Learn/Neon', auto = [ 'learn', 'neon' ] },
-	{ identifier = 'neon',          logo = { src = '/images/magic.gif' } },
-	{ identifier = 'learn'          },
-	{ identifier = 'blue'           },
-	{ identifier = 'green'          },
-	{ identifier = 'red'            }
+	{ identifier = 'zen-auto',  name = '시스템 설정', auto = [ 'zen-light', 'zen-dark' ] },
+	{ identifier = 'zen-light', name = 'Light', logo = { src = '/images/aidin_logo_light.png' } },
+	{ identifier = 'zen-dark',  name = 'Dark',  logo = { src = '/images/aidin_logo_dark.png'  } }
 ]
 
 # Minify theme assets.
@@ -347,7 +337,7 @@ disableLanguageSwitchingButton = false
 # This also causes the display of the `Clear History` entry in the lower part
 # of the menu to remove all checkmarks. The checkmarks will also been removed
 # if you regenerate your site as the ids are not stable.
-showVisitedLinks = true
+showVisitedLinks = false
 
 # The order of main menu submenus.
 # Default: 'weight'
@@ -380,7 +370,7 @@ collapsibleMenu = true
 # this is the easy way to remove the heading;
 # The title for the heading can be overwritten in your i18n files. See Hugo's
 # documentation how to do this.
-disableShortcutsTitle = false
+disableShortcutsTitle = true
 
 # Define your own sidebar menus.
 # Menus are written from the sidebar's top to buttom in the order given in

@@ -2510,7 +2510,7 @@ body a#R-logo:hover * {
   justify-content: center;
   line-height: 1;
   overflow: hidden;
-  margin-block: 0.5rem;
+  margin-block: 1.5rem;
   row-gap: 0.1em;
   width: 100%;
 }

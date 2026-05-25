@@ -14,5 +14,4 @@ relativeURLs = false
   # Some stuff to ignore that is not available in this environment.
   urlIgnoreCheck = [
     'hero.png',
-    'exampleSite'
   ]

@@ -1,0 +1,36 @@
+{{- $attributes := dict "class" "nolightbox" }}
+
+{{- /* Build map of variant logos (skip 'auto' variants — they inherit from underlying light/dark) */}}
+{{- $logoMap := dict }}
+{{- $themevariants := partialCached "_relearn/themeVariants.gotmpl" site.Home }}
+{{- range $themevariants }}
+  {{- if and (isset . "logo") (not (isset . "auto")) }}
+    {{- $logoMap = merge $logoMap (dict .identifier (dict "src" .logo.src "variant" .identifier)) }}
+  {{- end }}
+{{- end }}
+
+{{- /* Group logos by source so identical srcs share one <span> with combined data-r-logo-variant */}}
+{{- $logoGroups := dict }}
+{{- range $variantId, $logoInfo := $logoMap }}
+  {{- $src := $logoInfo.src }}
+  {{- if $src }}
+    {{- $existingVariants := slice }}
+    {{- if isset $logoGroups $src }}
+      {{- $existingVariants = index $logoGroups $src }}
+    {{- end }}
+    {{- $existingVariants = $existingVariants | append $variantId }}
+    {{- $logoGroups = merge $logoGroups (dict $src $existingVariants) }}
+  {{- end }}
+{{- end }}
+
+{{- /* Render logo only (no title), centered */}}
+{{- if $logoGroups }}
+        <a id="R-logo" class="R-default direction-row" href="{{ partial "permalink.gotmpl" (dict "to" site.Home) }}" style="justify-content:center;">
+  {{- range $logoSrc, $variants := $logoGroups }}
+    {{- $variantList := delimit $variants " " }}
+          <span class="logo-image default-animation" data-r-logo-variant="{{ $variantList }}">
+{{ partial "shortcodes/image.html" (dict "page" site.Home "url" $logoSrc "attributes" $attributes) }}
+          </span>
+  {{- end }}
+        </a>
+{{- end }}
