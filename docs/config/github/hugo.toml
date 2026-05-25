@@ -6,6 +6,9 @@
 # making it necessary to disable headless server mode
 baseURL = 'https://aidin-lgit.github.io/aidin_teleop/'
 relativeURLs = false
+# Root-relative URLs in markdown (e.g. /images/foo.png) get prefixed with the
+# baseURL path so that GitHub Project Pages (served under /aidin_teleop/) work.
+canonifyURLs = true
 
 [params]
   # We already checked during development..
