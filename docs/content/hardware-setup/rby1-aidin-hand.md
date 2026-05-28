@@ -5,15 +5,11 @@ weight = 1
 
 ## 조립 순서
 
-1. RBY1 양 손목 플랜지에서 기본 그리퍼 제거
-2. AIDIN Hand 어댑터 플레이트 체결 (토크 사양 *TODO*)
+1. RBY1 양 손목 플랜지에서 기본 그리퍼 제거 — [Rainbow Robotics 공식 가이드: Detaching Guide](https://rainbowrobotics.github.io/rby1-dev/maintenance/detaching_guide_prev.html) 절차를 따를 것
+2. AIDIN Hand 통신 케이블 체결
 3. 통신·전원 케이블 라우팅 (어깨→팔뚝→손목)
-4. 케이블 매니지먼트 (간섭/단선 방지)
 
 ## 체크리스트
 
-- [ ] 좌/우 손 페어 식별 (펌웨어 ID 확인)
-- [ ] 전원 인가 후 초기 자기진단 통과
-- [ ] 모든 손가락 관절이 풀 가동범위에서 동작하는지 확인
-
-> *TODO: 조립 사진, 토크 사양, 케이블 다이어그램*
+- [ ] 좌/우 손 페어 식별 (좌우 케이블 허브 연결 확인)
+- [ ] 핸드용 별도의 전원 인가 확인 (12V)

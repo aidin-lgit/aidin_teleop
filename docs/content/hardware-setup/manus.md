@@ -11,17 +11,10 @@ weight = 3
 
 ## 캘리브레이션
 
-1. MANUS Core 의 글로브 캘리브레이션 마법사 실행
-2. 손 펴기 / 주먹 / 핀치 등 안내된 자세 순서대로 수행
-3. 캘리브레이션 결과 파일을 워크스페이스 설정 디렉토리에 복사
+캘리브레이션 절차(자세 시퀀스, 검증 단계, 재캘리 기준 등)는 MANUS 공식 기술 문서를 따라 진행합니다.
 
-## ROS2 브릿지 점검
+- [MANUS Prime 3 Mocap — Calibration (공식 가이드)](https://docs.manus-meta.com/2.3.0/Products/Prime%203%20Mocap/Calibration/)
 
-```bash
-ros2 topic echo /manus/left/joint_states
-ros2 topic echo /manus/right/joint_states
-```
+캘리브레이션이 끝나면 MANUS Core 가 생성한 결과 파일을 워크스페이스 설정 디렉토리에 복사하여 ROS 2 브릿지가 동일한 프로파일을 사용하도록 합니다.
 
-각 토픽이 60Hz 내외로 안정적으로 들어오는지 확인.
 
-> *TODO: 사용 중인 글로브 모델·캘리브레이션 파일 위치·리타게팅 맵핑 표 추가*

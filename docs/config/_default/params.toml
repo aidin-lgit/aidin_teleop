@@ -666,7 +666,7 @@ enableLegacyLanguageLinks = false
 # tab, use '_self'.
 # If you want to set the default behavior for all links, use link effects.
 # This can be overridden in the page's frontmatter.
-externalLinkTarget = '_self'
+externalLinkTarget = '_blank'
 
 # What to do when local page link is not resolved.
 # Default: ''
