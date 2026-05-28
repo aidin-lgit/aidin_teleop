@@ -5,7 +5,7 @@ weight = 4
 
 ## 초기 설정
 
-1. Quest 부팅 후 동일 Wi-Fi (5GHz) 접속
+1. Quest 부팅 후 동일 네트워크의 Wi-Fi (5GHz) 접속
 2. 개발자 모드 활성화 (Meta Quest 개발자 계정 필요)
 
 
