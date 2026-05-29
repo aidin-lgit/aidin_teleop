@@ -21,11 +21,10 @@ cd ~/Workspace/lgit_ws && source install/setup.bash
 RBY1 UPC 에 SSH 접속해 `aidin_rby1_controller` 의 양팔 컨트롤러를 실행합니다. Teleop PC 의 `aidin_rby1_teleop_bringup/robot_launch.sh` 를 쓰면 SSH 까지 한 번에 처리됩니다.
 
 ```bash
-# Teleop PC 에서 robot_launch.sh 로 원격 실행
-cd ~/Workspace/lgit_ws/src/aidin_rby1_teleop_bringup
-./robot_launch.sh
-
-# 또는 RBY1 UPC 에서 직접 실행
+# Teleop PC 에서 로봇 제어기 실행
+ssh nvidia@192.168.2.21
+cd ~/Workspace/aidin_ws 
+source install/setup.bash
 ros2 launch aidin_rby1_controller bimanual_controller.launch.py
 ```
 
@@ -37,7 +36,11 @@ ros2 topic hz /joint_states
 ros2 topic hz /torso_pose_broadcaster/pose
 ```
 
-> ⚠️ 실행 즉시 로봇이 `initial_positions.yaml` 자세로 Homing 합니다. 로봇 주변과 이동 경로상 장애물이 없는지 먼저 확인하세요 ([부팅 시퀀스](../../teleoperation/launch-sequence/) 참고). 자세한 launch 인자는 [`aidin_rby1_controller`](https://github.com/aidin-lgit/aidin_rby1_controller) README 를 참고합니다.
+{{% notice style="warning" title="Homing 자세 이동 시 안전 확인" %}}
+위 launch 실행 시 로봇이 [`aidin_rby1_description/model/urdf/initial_positions.yaml`](https://github.com/aidin-lgit/aidin_rby1_description/blob/main/model/urdf/initial_positions.yaml) 에 정의된 초기화 자세로 즉시 Homing 합니다. 양 팔·허리·헤드가 모두 동시에 움직이므로 **실행 전 로봇 주변과 이동 경로상에 사람·장애물이 없는지 반드시 확인**하고, E-Stop 이 손에 닿는 위치에 있는지 점검하세요. 자세한 절차는 [부팅 시퀀스](../../teleoperation/launch-sequence/) 참고.
+{{% /notice %}}
+
+자세한 launch 인자는 [`aidin_rby1_controller`](https://github.com/aidin-lgit/aidin_rby1_controller) README 를 참고합니다.
 
 ## 2. RealSense 카메라
 
