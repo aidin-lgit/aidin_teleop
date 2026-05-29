@@ -5,9 +5,42 @@ weight = 3
 
 ## 페어링
 
-1. MANUS 동글을 텔레옵 PC USB 포트에 연결
+1. MANUS 동글을 Teleop PC USB 포트에 연결
 2. MANUS Core 또는 자체 브릿지 실행
 3. 좌/우 글로브 전원 ON 후 자동 페어링 확인
+
+## USB 권한 — 라이선스 인식용 udev rule
+
+Linux 환경에서 MANUS SDK 가 라이선스 동글을 인식하려면 해당 USB 장치에 대한 권한이 일반 사용자에게 열려 있어야 합니다. MANUS SDK 실행 시 다음과 같은 경고가 뜨면 udev rule 이 누락된 상태입니다.
+
+```
+[warning] No compatible license found. Please connect a license with the SDK component.
+```
+
+해결 절차:
+
+1. `/etc/udev/rules.d/99.manus.rules` 파일을 생성하고 다음 내용을 작성합니다.
+
+   ```
+   SUBSYSTEM=="hidraw", ATTRS{idVendor}=="3325", MODE="0666"
+   SUBSYSTEM=="usb",    ATTRS{idVendor}=="3325", MODE="0666"
+   SUBSYSTEM=="usb",    ATTRS{idVendor}=="1915", MODE="0666"
+   ```
+
+2. udev 규칙을 reload 하고 현재 연결된 장치에 다시 적용합니다.
+
+   ```bash
+   sudo udevadm control --reload-rules
+   sudo udevadm trigger
+   ```
+
+3. 동글이 시스템에서 인식되는지 확인합니다.
+
+   ```bash
+   lsusb | grep 3325
+   ```
+
+   해당 라인이 표시되지 않으면 USB 포트 / 케이블 / 동글 연결 상태를 먼저 점검하세요.
 
 ## 캘리브레이션
 

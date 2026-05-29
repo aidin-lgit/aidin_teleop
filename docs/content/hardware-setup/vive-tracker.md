@@ -3,6 +3,16 @@ title = "VIVE Tracker 셋업"
 weight = 2
 +++
 
+## 사전 준비 — Steam / SteamVR
+
+VIVE Tracker 인식·페어링·자세 스트리밍은 모두 **SteamVR** 을 통해 이루어지므로, Teleop PC 에 다음이 미리 갖춰져 있어야 합니다.
+
+1. [Steam](https://store.steampowered.com/about/) 설치 및 Steam 계정 로그인
+2. Steam 라이브러리에서 [SteamVR](https://store.steampowered.com/app/250820/SteamVR/) 설치
+3. SteamVR 실행 후 정상 구동 확인 (상태 창의 베이스/HMD/트래커 슬롯이 표시되어야 함)
+
+원격제어를 시작하기 전 SteamVR 가 항상 실행 중이어야 하며, Steam 로그아웃 / 자동 업데이트 등으로 SteamVR 가 종료되면 트래커 토픽이 끊기므로 주의하세요.
+
 ## 베이스 스테이션 배치
 
 - 최소 2개, 권장 4개 (대각선 배치, 약 2~2.5m 높이, 추적 영역을 안쪽으로 향하게)
@@ -34,4 +44,4 @@ weight = 2
 - SteamVR Status 창에서 세 트래커 모두 녹색 상태 확인
 - 트래커 자세 출력 값이 jitter / dropout 발생 시 베이스 위치 재조정
 
-> 본 시스템은 별도의 **트래커-로봇 캘리브레이션 절차가 없습니다**. 장착한 허리 트래커가 로봇 베이스 기준점이 되며, 변환 관계는 설정 파일의 고정 오프셋으로 처리됩니다. 자세한 동작 원리는 [원격제어 → 트래커-로봇 좌표 변환](../../teleoperation/tracker-frame-transform/) 참고.
+> 본 시스템은 별도의 **트래커-로봇 캘리브레이션 절차가 없습니다**. 장착한 허리 트래커가 로봇 베이스 기준점이 되며, 변환 관계는 설정 파일의 고정 오프셋으로 처리됩니다.

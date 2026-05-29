@@ -16,3 +16,12 @@ weight = 2
 - [ROS 2 Humble Documentation](https://docs.ros.org/en/humble/)
 - [MCAP](https://mcap.dev/)
 - [HDF5 (h5py)](https://docs.h5py.org/)
+- [LeRobot (Hugging Face)](https://huggingface.co/lerobot)
+
+## Online Visualizer
+
+별도 프로그램 설치 없이 브라우저에서 바로 데이터를 점검할 수 있는 온라인 도구입니다.
+
+- [Foxglove](https://app.foxglove.dev/) — MCAP / rosbag2 시각화
+- [myHDF5](https://myhdf5.hdfgroup.org/) — HDF5 그룹·dataset·attribute 탐색
+- [LeRobot Visualizer](https://io-ai.tech/lerobot/) — LeRobot 데이터셋 재생

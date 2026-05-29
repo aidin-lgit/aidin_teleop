@@ -49,7 +49,7 @@ source install/setup.bash
 
 ```bash
 ros2 pkg list | grep aidin
-ros2 launch aidin_rby1_description display.launch.py   # URDF 확인
+ros2 launch aidin_rby1_description description.launch.py   # URDF 확인
 ```
 
 ## Teleop PC
@@ -107,10 +107,9 @@ git clone https://github.com/aidin-lgit/e2e_training.git
 git clone https://github.com/aidin-lgit/e2e_inference.git
 ```
 
-### 의존성 해소 · 빌드
+### 의존 라이브러리 설치
 
-```bash
-cd ~/Workspace/e2e_ws
-colcon build --symlink-install
-source install/setup.bash
-```
+`e2e_training` 과 `e2e_inference` 는 동일 Python 가상환경을 공유하며, 가상환경 생성·의존성 설치·editable 설치(`pip install -e .`) 절차는 각 패키지의 설치 가이드를 참고하세요.
+
+- [`e2e_training`](https://github.com/aidin-lgit/e2e_training) — README 및 `docs/quickstart.md`
+- [`e2e_inference`](https://github.com/aidin-lgit/e2e_inference) — README 및 `docs/user_guide.md`
