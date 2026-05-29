@@ -6,9 +6,10 @@ weight = 1
 ## 조립 순서
 
 1. RBY1 양 손목 플랜지에서 기본 그리퍼 제거 — [Rainbow Robotics 공식 가이드: Detaching Guide](https://rainbowrobotics.github.io/rby1-dev/maintenance/detaching_guide_prev.html) 절차를 따를 것
-2. AIDIN Hand 통신 및 전원 케이블 체결
-3. 좌/우 통신 케이블을 이더켓 허브에 연결
-3. 통신·전원 케이블 라우팅 (어깨→팔뚝→손목)
+2. AIDIN Hand 부착 — 좌/우 손목 플랜지에 각각 좌/우 핸드 체결
+3. AIDIN Hand 통신 및 전원 케이블 체결
+4. 좌/우 통신 케이블을 EtherCAT 허브에 연결
+5. 통신·전원 케이블 라우팅 (어깨→팔뚝→손목)
 
 ## 체크리스트
 
@@ -18,4 +19,11 @@ weight = 1
 
 
 - [ ] UPC 랜선 포트들 중 좌측의 EtherCAT 드라이버 패치된 포트에 EtherCAT 허브에서 나온 선을 연결할 것
+
+{{% notice style="warning" title="UPC EtherCAT 포트 위치 — 반드시 확인" %}}
+RBY1 UPC 의 일반 LAN 포트와 EtherCAT 드라이버 패치된 포트는 외관이 동일하므로 혼동하기 쉽습니다. **반드시 아래 사진의 좌측 포트** 에 EtherCAT 허브 케이블을 연결하세요. 잘못된 포트에 연결하면 EtherCAT 통신이 잡히지 않아 AIDIN Hand 가 동작하지 않습니다.
+
+![UPC EtherCAT 포트 위치](/images/rby1_port.png?width=400px)
+{{% /notice %}}
+
 - [ ] 핸드용 별도의 전원 인가 확인 (12V)
