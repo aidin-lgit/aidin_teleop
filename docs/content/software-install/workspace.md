@@ -111,5 +111,5 @@ git clone https://github.com/aidin-lgit/e2e_inference.git
 
 `e2e_training` 과 `e2e_inference` 는 동일 Python 가상환경을 공유하며, 가상환경 생성·의존성 설치·editable 설치(`pip install -e .`) 절차는 각 패키지의 설치 가이드를 참고하세요.
 
-- [`e2e_training`](https://github.com/aidin-lgit/e2e_training) — README 및 `docs/quickstart.md`
-- [`e2e_inference`](https://github.com/aidin-lgit/e2e_inference) — README 및 `docs/user_guide.md`
+- [`e2e_training`](https://github.com/aidin-lgit/e2e_training) — README 및 [`docs/quickstart.md`](https://github.com/aidin-lgit/e2e_training/blob/release/v1.0.1/docs/quickstart.md)
+- [`e2e_inference`](https://github.com/aidin-lgit/e2e_inference) — README 및 [`docs/user_guide.md`](https://github.com/aidin-lgit/e2e_inference/blob/release/v1.1.0/docs/user_guide.md)

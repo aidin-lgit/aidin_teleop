@@ -14,8 +14,8 @@ weight = 2
 
 | 패키지                      | 역할                                                                          |
 | ------------------------ | --------------------------------------------------------------------------- |
-| `aidin_hand_description` | 5지 AIDIN Hand 의 URDF / xacro / 메쉬 / RViz · 좌·우 손 매크로, ros2_control 매크로      |
-| `aidin_rby1_description` | RBY1 + AIDIN Hand 통합 모델 (URDF / xacro / Mujoco MJCF / Isaac Sim USD / RViz) |
+| [`aidin_hand_description`](https://github.com/aidin-lgit/aidin_hand_description) | 5지 AIDIN Hand 의 URDF / xacro / 메쉬 / RViz · 좌·우 손 매크로, ros2_control 매크로      |
+| [`aidin_rby1_description`](https://github.com/aidin-lgit/aidin_rby1_description) | RBY1 + AIDIN Hand 통합 모델 (URDF / xacro / Mujoco MJCF / Isaac Sim USD / RViz) |
 
 
 ### 2. Hardware Interface (ros2_control SystemInterface 플러그인)
@@ -25,8 +25,8 @@ URDF 의 `<ros2_control>` 블록에서 로드되며 자체 노드는 띄우지 �
 
 | 패키지                   | 제공 플러그인                                                                                                                                                                                                          | 비고                                                    |
 | --------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------- |
-| `aidin_hand_hardware` | `EtherlabDriver` (실기, IgH EtherCAT + CiA-402 + Homing 시퀀스 내장, 1 kHz RT 루프) / `EthercatDriver` (`ethercat_interface` 기반 일반형) / `AidinHandVirtualHardware` (가상)                                                    | 5 손가락 × ELMO 슬레이브 1개 × 3축. axis1 에 F 센서, axis2 에 T 센서 |
-| `aidin_rby1_hardware` | `RBY1HardwareInterface` (실기, [`rby1-sdk`](https://github.com/RainbowRobotics/rby1-sdk) gRPC, 24 DoF + 손목 FT + EE/torso/head pose, 위치/임피던스 + Homing/E-stop) / `AidinRBY1VirtualHardware` (가상) | 별도 `rby1_description` (Rainbow 측) URDF 런타임 로드 |
+| [`aidin_hand_hardware`](https://github.com/aidin-lgit/aidin_hand_hardware) | `EtherlabDriver` (실기, IgH EtherCAT + CiA-402 + Homing 시퀀스 내장, 1 kHz RT 루프) / `EthercatDriver` (`ethercat_interface` 기반 일반형) / `AidinHandVirtualHardware` (가상)                                                    | 5 손가락 × ELMO 슬레이브 1개 × 3축. axis1 에 F 센서, axis2 에 T 센서 |
+| [`aidin_rby1_hardware`](https://github.com/aidin-lgit/aidin_rby1_hardware) | `RBY1HardwareInterface` (실기, [`rby1-sdk`](https://github.com/RainbowRobotics/rby1-sdk) gRPC, 24 DoF + 손목 FT + EE/torso/head pose, 위치/임피던스 + Homing/E-stop) / `AidinRBY1VirtualHardware` (가상) | 별도 `rby1_description` (Rainbow 측) URDF 런타임 로드 |
 
 
 ### 3. Controller (ros2_control 컨트롤러)
@@ -34,8 +34,8 @@ URDF 의 `<ros2_control>` 블록에서 로드되며 자체 노드는 띄우지 �
 
 | 패키지                      | 주요 컨트롤러                                                                                                                                                                                                                                                                                                                                   | 설명                                                                                                                                                                                                                                         |
 | ------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| `aidin_hand_controllers` | `ActuatorController` → `HandKinematicsController` → `JointCommandController` ( `ChainableControllerInterface`)                                                                                                                                                                                                                          | 사용자 관절 명령 → 손가락 운동학 → 액추에이터 인코더로 chain 전파. 손가락 F-T 브로드캐스터 동반                                                                              |
-| `aidin_rby1_controller`  | **Joint layer**: `JointCommandController` (필수, terminal) **Cartesian layer** (택1): `BimanualIKController` / `WholebodyIKController` / `CartesianAdmittanceController` / `WholebodyCartesianAdmittanceController` **Mobile layer** (옵션): `diff_drive_controller` **Broadcaster**: joint_state, EE pose, torso/head pose, wrist FT, hand FT |  launch 인자로 Cartesian 컨트롤러 자동 선택 |
+| [`aidin_hand_controllers`](https://github.com/aidin-lgit/aidin_hand_controllers) | `ActuatorController` → `HandKinematicsController` → `JointCommandController` ( `ChainableControllerInterface`)                                                                                                                                                                                                                          | 사용자 관절 명령 → 손가락 운동학 → 액추에이터 인코더로 chain 전파. 손가락 F-T 브로드캐스터 동반                                                                              |
+| [`aidin_rby1_controller`](https://github.com/aidin-lgit/aidin_rby1_controller)  | **Joint layer**: `JointCommandController` (필수, terminal) **Cartesian layer** (택1): `BimanualIKController` / `WholebodyIKController` / `CartesianAdmittanceController` / `WholebodyCartesianAdmittanceController` **Mobile layer** (옵션): `diff_drive_controller` **Broadcaster**: joint_state, EE pose, torso/head pose, wrist FT, hand FT |  launch 인자로 Cartesian 컨트롤러 자동 선택 |
 
 
 ### 4. Teleoperation (상위 스택)
@@ -43,7 +43,7 @@ URDF 의 `<ros2_control>` 블록에서 로드되며 자체 노드는 띄우지 �
 
 | 패키지                 | 역할                                                                                                                                                                                                                                                                                                |
 | ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `aidin_rby1_teleop` | VR HMD · VIVE Tracker · MANUS Glove 입력을 단일 ref frame 으로 정합 후 위 Cartesian / Joint / Hand 컨트롤러로 송출, 동시에 MCAP 으로 녹화 |
+| [`aidin_rby1_teleop`](https://github.com/aidin-lgit/aidin_rby1_teleop) | VR HMD · VIVE Tracker · MANUS Glove 입력을 단일 ref frame 으로 정합 후 위 Cartesian / Joint / Hand 컨트롤러로 송출, 동시에 MCAP 으로 녹화 |
 
 
 ## 런타임 데이터 플로우 (텔레옵 → 로봇)

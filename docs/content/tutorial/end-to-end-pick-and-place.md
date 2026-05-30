@@ -119,7 +119,7 @@ e2e-train \
 ```
 
 - 학습이 끝나면 `e2e_training/artifacts/train/diffusion_policy` 경로에 `ckpt/best.pt` 와 `ckpt/last.pt` 가 생성됩니다.
-- 학습 epoch 수, GPU 메모리 튜닝, EMA, resume 등 옵션은 [`e2e_training`](https://github.com/aidin-lgit/e2e_training) README 와 `docs/` 가이드를 참고하세요.
+- 학습 epoch 수, GPU 메모리 튜닝, EMA, resume 등 옵션은 [`e2e_training`](https://github.com/aidin-lgit/e2e_training) README 와 [`docs/`](https://github.com/aidin-lgit/e2e_training/tree/release/v1.0.1/docs) 가이드를 참고하세요.
 
 ## 8. 자율 추론 (실로봇)
 
@@ -139,6 +139,6 @@ e2e-infer \
   --device cuda
 ```
 
-`publish: false` 동안 콘솔에 그룹별 액션 값이 찍히므로 관절 한계·NaN·점프 여부를 확인합니다. 안전이 확보되면 `publish: true` 로 전환하고 짧은 `--max_duration` (예: 10초) 부터 검증한 뒤 본 작업을 진행하세요. CLI 옵션·트러블슈팅 상세는 [`e2e_inference`](https://github.com/aidin-lgit/e2e_inference) README 와 `docs/user_guide.md` 참고.
+`publish: false` 동안 콘솔에 그룹별 액션 값이 찍히므로 관절 한계·NaN·점프 여부를 확인합니다. 안전이 확보되면 `publish: true` 로 전환하고 짧은 `--max_duration` (예: 10초) 부터 검증한 뒤 본 작업을 진행하세요. CLI 옵션·트러블슈팅 상세는 [`e2e_inference`](https://github.com/aidin-lgit/e2e_inference) README 와 [`docs/user_guide.md`](https://github.com/aidin-lgit/e2e_inference/blob/release/v1.1.0/docs/user_guide.md) 참고.
 
 
