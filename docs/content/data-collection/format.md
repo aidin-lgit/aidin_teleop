@@ -170,9 +170,17 @@ dataset.hdf5
 
 ## 변환 도구
 
+변환기는 모두 `ros2_mcap_recorder` 패키지에서 제공됩니다.
+
 ```bash
-ros2 run aidin_rby1_teleop mcap_to_hdf5 \
-    --input  /data/raw/episode_0001.mcap \
-    --output /data/hdf5/episode_0001.hdf5 \
-    --config aidin_rby1_teleop/config/mcap_to_hdf5.yaml
+# 단일 MCAP → HDF5
+ros2 run ros2_mcap_recorder convert_mcap_to_hdf5 \
+    --mcap /data/raw/episode_1_0.mcap \
+    --out  /data/hdf5/episode_1.hdf5
+
+# 세션 일괄 → 단일 HDF5 (권장, demo_0 / demo_1 ... 누적)
+ros2 run ros2_mcap_recorder convert_session_to_hdf5 \
+    --session /data/raw/session_20260729_153000
 ```
+
+매핑 YAML 을 바꿀 때만 `--config <mcap_to_hdf5.yaml>` 을 지정합니다 (기본값은 패키지 `share/ros2_mcap_recorder/config/mcap_to_hdf5.yaml`). 전체 CLI 옵션은 [후처리 및 검증](../postprocessing/) 을 참고하세요.

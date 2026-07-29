@@ -13,16 +13,21 @@ weight = 3
 
 ```bash
 # 가장 최신 session_* 자동 선택 → bundle 모드 (단일 HDF5 에 demo_0, demo_1, ... 누적)
-ros2 run ros2_mcap_recorder convert_session_to_hdf5
+#   ※ 자동 탐색 기준은 ./logs 이므로, launch 로 녹화했다면 --logs-dir 를 지정해야 합니다
+ros2 run ros2_mcap_recorder convert_session_to_hdf5 --logs-dir ~/data/mcap
 
 # 명시적 세션 + per-episode 모드 (에피소드마다 별도 HDF5 파일)
 ros2 run ros2_mcap_recorder convert_session_to_hdf5 \
-  --session ./logs/session_20260524_153000 \
+  --session ~/data/mcap/session_20260729_153000 \
   --mode per-episode
 
 # 샘플링 주파수를 30 Hz 로 override
-ros2 run ros2_mcap_recorder convert_session_to_hdf5 --fps 30
+ros2 run ros2_mcap_recorder convert_session_to_hdf5 --logs-dir ~/data/mcap --fps 30
 ```
+
+{{% notice style="warning" title="`--logs-dir` 기본값은 `./logs`" %}}
+`--session` / `--mcap` 을 생략하면 변환기는 **`./logs`** 아래에서 최신 세션을 찾습니다. `logger.launch.py` / `teleop_bringup.launch.py` 로 녹화한 세션은 `~/data/mcap` 에 있으므로, 위와 같이 `--logs-dir ~/data/mcap` 을 지정하거나 `--session` 으로 경로를 직접 넘겨야 합니다. 자세한 내용은 [녹화 절차](../recording/#1-녹화-노드-기동) 참고.
+{{% /notice %}}
 
 출력 위치:
 
@@ -61,7 +66,7 @@ ros2 run ros2_mcap_recorder convert_mcap_to_hdf5 \
 | `--out` | 모드별 기본 경로 | 출력 경로/디렉터리 |
 | `--demo-name` | `demo_0` | `--mcap` / per-episode 모드 한정 |
 | `--append` | `False` | `--mcap` 모드에서 기존 HDF5 에 누적 |
-| `--logs-dir` | `./logs` | 세션 자동 탐색 부모 디렉터리 |
+| `--logs-dir` | `./logs` | 세션 자동 탐색 부모 디렉터리. launch 로 녹화했다면 `~/data/mcap` 지정 |
 
 전체 옵션 목록과 `mcap_to_hdf5.yaml` 매핑(joint groups, poses, wrenches, command_streams, concat 으로 `actions`/`states` 생성) 작성법은 [`ros2_mcap_recorder`](https://github.com/aidin-lgit/ros2_mcap_recorder) README 의 §3-2, §3-3 을 참고하세요.
 

@@ -7,20 +7,46 @@ weight = 2
 
 ## 1. 녹화 노드 기동
 
+원격제어 통합 실행에서는 `teleop_bringup.launch.py` 가 로거를 함께 띄우므로 별도 실행이 필요 없습니다. 로거만 단독으로 띄울 때는 launch 를 쓰는 방식과 노드를 직접 실행하는 방식 두 가지가 있고, **기본 출력 경로가 서로 다릅니다.**
+
+### 1-1. launch 로 실행 (권장)
+
 ```bash
-ros2 run ros2_mcap_recorder mcap_recorder
+ros2 launch aidin_rby1_teleop_bringup logger.launch.py
 ```
 
 옵션을 지정해 실행할 수도 있습니다.
 
 ```bash
-ros2 run ros2_mcap_recorder mcap_recorder \
-  --config /path/to/topics.yaml \
-  --output-dir ~/data/mcap
+ros2 launch aidin_rby1_teleop_bringup logger.launch.py \
+  config:=/path/to/topics.yaml \
+  output_dir:=/mnt/data/teleop_logs \
+  image_format:=raw
 ```
 
-- `--config`: 녹화 대상 토픽 목록 YAML (기본: 패키지의 `config/topics.yaml`). 기본 토픽 구성은 [데이터 포맷 → 기록 대상 토픽](../format/#기록-대상-토픽) 참고.
-- `--output-dir`: 세션 디렉터리를 만들 부모 디렉터리 (기본: `./logs`).
+| 인자 | 기본값 | 설명 |
+| --- | --- | --- |
+| `config` | 패키지의 `config/topics.yaml` | 녹화 대상 토픽 목록 YAML. 기본 토픽 구성은 [데이터 포맷 → 기록 대상 토픽](../format/#기록-대상-토픽) 참고 |
+| `output_dir` | **`~/data/mcap`** | 세션 디렉터리를 만들 부모 디렉터리 |
+| `image_format` | `compressed` | 컬러 이미지 저장 형식 (`raw` / `compressed`) |
+
+### 1-2. 노드를 직접 실행
+
+```bash
+ros2 run ros2_mcap_recorder mcap_recorder
+
+# 옵션 지정
+ros2 run ros2_mcap_recorder mcap_recorder \
+  --config /path/to/topics.yaml \
+  --output-dir ~/data/mcap \
+  --image-format raw
+```
+
+이 방식의 `--output-dir` 기본값은 **`./logs`** (실행한 작업 디렉터리 기준) 입니다.
+
+{{% notice style="warning" title="출력 경로 확인" %}}
+launch 로 띄우면 `~/data/mcap/`, 노드를 직접 실행하면 `./logs/` 아래에 세션이 생성됩니다. 이후 [후처리 및 검증](../postprocessing/) 단계에서 변환 도구는 기본적으로 `./logs` 를 탐색하므로, launch 로 녹화한 세션은 `--logs-dir ~/data/mcap` 또는 `--session ~/data/mcap/session_<ts>` 를 명시해야 합니다.
+{{% /notice %}}
 
 토픽 자동 검출이 끝나면 노드 로그에 `모든 타겟 토픽의 타입을 성공적으로 찾았습니다!` 메시지가 출력됩니다.
 
@@ -59,8 +85,8 @@ ros2 service call /dynamic_mcap_recorder/session_control std_srvs/srv/SetBool "{
 녹화가 끝난 뒤 출력 디렉터리는 다음과 같이 구성됩니다.
 
 ```text
-logs/
-└── session_20260524_153000/
+~/data/mcap/                        # launch 실행 시. 노드 직접 실행 시에는 ./logs/
+└── session_20260729_153000/
     ├── episode_1/
     │   ├── episode_1_0.mcap
     │   └── metadata.yaml

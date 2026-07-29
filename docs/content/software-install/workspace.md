@@ -59,20 +59,33 @@ ros2 launch aidin_rby1_description description.launch.py   # URDF 확인
 ```
 ~/Workspace/lgit_ws/
 └── src/
-    └── aidin_rby1_teleop/        # 메타패키지 (하위는 git submodule)
-        ├── aidin_rby1_description    # RViz 시각화 · 좌표계 참조용
+    └── aidin_rby1_teleop/        # 메타패키지 (하위 6개는 git submodule)
         ├── aidin_rby1_teleop_bringup # 통합 launch 진입점 (robot_launch.sh, teleop_bringup.launch.py 등)
-        ├── aidin_rby1_vr_teleop      # Meta Quest VR HMD 입력 노드
+        ├── aidin_rby1_vr_teleop      # CloudXR VR HMD 영상 송출 + 머리/양손 pose
         ├── aidin_rby1_vive_teleop    # VIVE Tracker 입력 + 키보드/페달 상태머신
+        ├── vive_tracker_ros2         # OpenVR/SteamVR 트래커 드라이버
         ├── aidin_manus               # MANUS Glove 손가락 입력 노드
-        └── ros2_mcap_recorder        # MCAP 녹화 · HDF5 변환 도구
+        └── ros2_mcap_recorder        # MCAP 녹화 · HDF5/LeRobot 변환 도구
 ```
 
 ### 소스 가져오기
 
 ```bash
 mkdir -p ~/Workspace/lgit_ws/src && cd ~/Workspace/lgit_ws/src
-git clone --recursive https://github.com/aidin-lgit/aidin_rby1_teleop.git
+git clone --recurse-submodules https://github.com/aidin-lgit/aidin_rby1_teleop.git
+```
+
+`--recurse-submodules` 를 빠뜨렸다면 클론 후 아래로 채웁니다.
+
+```bash
+cd aidin_rby1_teleop && git submodule update --init --recursive
+```
+
+RViz 시각화·좌표계 참조로 `aidin_rby1_description` 이 필요하면 별도로 클론합니다 (메타패키지의 서브모듈이 아닙니다).
+
+```bash
+cd ~/Workspace/lgit_ws/src
+git clone https://github.com/aidin-lgit/aidin_rby1_description.git
 ```
 
 ### 의존성 해소 · 빌드
